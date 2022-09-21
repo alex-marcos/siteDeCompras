@@ -1,6 +1,8 @@
 <h1 align="centre">Site de Compras</h1>
 
 Esse projeto tem por intuito me desafiar a construir uma página totalmente funcional com o elemento de seleção de cor do produto que deseja comprar, slider para a passagem de fotos do produto e será feita a integração com a API dos correios para verificar o CEP, e assim será passado o valor total do frete.
+No dia 20/09/2022 decidi me inspirar no desafio ( https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 )
+para o design da página.
 
 ## Objetivos de aprendizagem:
 - Reforço de HTML e CSS;
