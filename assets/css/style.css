@@ -1,3 +1,44 @@
 body {
     height: 100vh;
 }
+
+/* Css do header*/
+header {
+    border-bottom: 1px solid #CCCCCC;
+    justify-content: center;
+    padding: 2em 0 4em 0;
+}
+
+.logoheader {
+    padding: 0 0 0 8em;
+   
+}
+
+.nav {
+    display: inline-flex;
+   
+
+}
+
+.nav li {
+    padding: 0 0 0 2em;
+    font-size: 1.2em;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.nav li:hover {
+    color: hsl(26, 100%, 55%);
+}
+
+.carrinho, .foto {
+   position: relative;
+   left: 30%;
+}
+
+.foto {
+    top: 1em;
+    padding: 0 0 0 2em;
+    height: 4em;
+}
