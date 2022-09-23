@@ -32,13 +32,23 @@ header {
     color: hsl(26, 100%, 55%);
 }
 
-.carrinho, .foto {
-   position: relative;
-   left: 30%;
-}
-
-.foto {
+.profile {
     top: 1em;
     padding: 0 0 0 2em;
     height: 4em;
+    position: relative;
+    left: 30%;
+}
+
+.product-count {
+    border: 2px solid;
+    position: relative;
+    left: 14.5%;
+}
+
+.btn-car {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 30%;
 }
