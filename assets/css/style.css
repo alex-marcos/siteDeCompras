@@ -24,7 +24,7 @@ header {
     padding: 0 0 0 2em;
     font-size: 1.2em;
     font-family: 'Kumbh Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 400;
 
 }
 
@@ -41,9 +41,9 @@ header {
 }
 
 .product-count {
-    border: 2px solid;
     position: relative;
     left: 14.5%;
+    bottom: 0.5em;
 }
 
 .btn-car {
@@ -51,4 +51,127 @@ header {
     border: none;
     position: relative;
     left: 30%;
+}
+
+/* Css do main */
+.container-a {
+    position: relative;
+    left: 55%;
+    width: 25%;
+    top: 7em;
+}
+
+
+
+.company-name {
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 0 1em 0;
+    
+}
+
+
+.title-main {
+    color: #000000;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0 0 1em 0;
+}
+
+.text-main {
+    color: hsl(219, 9%, 45%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* Css main prices */
+
+.prices {
+    position: relative;
+    left: 55%;
+    top: 10em;
+    width: 11%;
+}
+
+.price-a {
+    color: #000000;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0 1em 1em 0;
+}
+
+.discount {
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: hsl(25, 100%, 94%);
+    padding: 0.5em; 
+}
+
+.price-b {
+    color: hsl(220, 14%, 75%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    position: relative;
+    top: 1em;
+    width: 1%;
+}
+
+/* Css main button */
+
+.main-btn {
+    position: relative;
+    left: 55%;
+    top: 15em;
+    width: 80%;
+
+}
+
+#btn-menos {
+    background-color: transparent;
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    border: none;
+}
+
+#number-shoes{
+    color: #000000;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#btn-mais {
+    background-color: transparent;
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    border: none;
+}
+
+#btn-add {
+    background-color: hsl(26, 100%, 55%);
+    color: #FFFFFF;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    width: 13%;
+    padding: 0.8em;
+    border-radius: 1em;
+
+}
+
+.car2 {
+    margin: 0 1em 0 0;
 }

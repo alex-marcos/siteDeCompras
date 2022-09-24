@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="16x16"  href="./assets/imagens/favicon-32x32.png">
     <script src="./assets/scripts/script.js"></script>
 
@@ -33,22 +33,26 @@
     </header>
     <main>
 
-        <h1 class="company-name">SNEAKER COMPANY</h1>
+        <div class="container-a">
+            <h1 class="company-name">SNEAKER COMPANY</h1>
 
-        <h1 class="title-main">Fall Limited Edition Sneakers</h1>
+            <h1 class="title-main">Fall Limited Edition Sneakers</h1>
 
-        <p class="text-main">These low-profile sneakers are your perfect casual wear companion.
-            Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+            <p class="text-main">These low-profile sneakers are your perfect casual wear companion.
+                Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+        </div>
 
-            <span class="price">$ 125.00</span>
-            <span class="discount">50%</span>
-            <span class="price">$ 250.00</span>
+            <div class="prices">
+                <span class="price-a">$ 125.00</span>
+                <span class="discount">50%</span>
+                <span class="price-b">$ 250.00</span>
+            </div>
 
         <div class="main-btn">
             <input type="button" id="btn-menos" value="&#8722;">
-            <span class="number-shoes">0</span>
+            <span id="number-shoes">0</span>
             <input type="button" id="btn-mais" value="&#43;">
-            <button type="button" class="btn-add"> <img src="./assets/imagens/icon-cart.svg" alt="Carrinho de compras" class="car2">Add to cart</button>
+            <button type="button" id="btn-add"> <img src="./assets/imagens/icon-cart.svg" alt="Carrinho de compras" class="car2">Add to cart</button>
         </div>
 
     </main>
