@@ -4,6 +4,8 @@ Esse projeto tem por intuito me desafiar a construir uma página totalmente func
 No dia 20/09/2022 decidi me inspirar no desafio ( https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 )
 para o design da página.
 
+Atualmente no dia 24/09 estou estudando a melhor possibilidade de slider para ser utilizada no projeto, enquanto estou testando possiveis estruturas, funcionais porem precisam de ajuste no CSS.
+
 ## Objetivos de aprendizagem:
 - Reforço de HTML e CSS;
 - Uso de JavaScript para animações;
