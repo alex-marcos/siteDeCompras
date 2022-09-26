@@ -23,41 +23,31 @@
             <li>About</li>
             <li>Contact</li>
         </ul>
-  
-        <button type="button" class="btn-car"> <img src="./assets/imagens/icon-cart.svg" alt="Carrinho de compras" class="car"></button>
+        
+        <input type="image" src="./assets/imagens/icon-cart.svg" id="btn-car">
         <span class="product-count"></span>
-        <img src="./assets/imagens/image-avatar.png" alt="Foto de perfil" class="profile">
-   
-
+        <input type="image" src="./assets/imagens/image-avatar.png" id="profile">
 
     </header>
     <main>
-
-       <div class="slide">
-        <div class="slides">
-
-            <div id="back" class="btn">
-                <i class="fas fa-chevron-left"></i>
-            </div>
-            <div id="next" class="btn">
-                <i class="fas fa-chevron-right"></i>
-            </div>
-            <div id="actual" class="images">
+    <div id="container-a">
+        <input type="radio" id="image1" name="grupo" checked>
+        <label for="image1"><img src="./assets/imagens/image-product-1-thumbnail.jpg"></label>
+        <input type="radio" id="image2" name="grupo">
+        <label for="image2"><img src="./assets/imagens/image-product-2-thumbnail.jpg"></label>
+        <input type="radio" id="image3" name="grupo">
+        <label for="image3"><img src="./assets/imagens/image-product-3-thumbnail.jpg"></label>
+        <input type="radio" id="image4" name="grupo">
+        <label for="image4"><img src="./assets/imagens/image-product-4-thumbnail.jpg"></label>
+        <div class="principal">
+            <div class="slide">
                 <img src="./assets/imagens/image-product-1.jpg" alt="Produto">
-            </div>
-            <div class="images">
                 <img src="./assets/imagens/image-product-2.jpg" alt="Produto">
-            </div>
-            <div class="images">
                 <img src="./assets/imagens/image-product-3.jpg" alt="Produto">
+                <img src="./assets/imagens/image-product-4.jpg" alt="Produto">
             </div>
         </div>
-        <div class="balls">
-            <div class="imgActual" id="0"></div>
-            <div id="1"></div>
-            <div id="2"></div>
-        </div>
-       </div>
+    </div>
 
         <div class="container-b">
             <h1 class="company-name">SNEAKER COMPANY</h1>
@@ -71,14 +61,17 @@
             <div class="prices">
                 <span class="price-a">$ 125.00</span>
                 <span class="discount">50%</span>
-                <span class="price-b">$ 250.00</span>
+                <span class="price-b"><s>$250.00</s></span>
             </div>
 
         <div class="main-btn">
-            <input type="button" id="btn-menos" value="&#8722;">
-            <span id="number-shoes">0</span>
-            <input type="button" id="btn-mais" value="&#43;">
+            <div class="amount-btn">
+                <input type="button" id="btn-menos" value="&#8722;">
+                <span id="number-shoes">0</span>
+                <input type="button" id="btn-mais" value="&#43;">
+            </div>
             <button type="button" id="btn-add"> <img src="./assets/imagens/icon-cart.svg" alt="Carrinho de compras" class="car2">Add to cart</button>
+            
         </div>
 
     </main>

@@ -4,9 +4,12 @@ body {
 
 /* Css do header*/
 header {
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
     justify-content: center;
     padding: 2em 0 4em 0;
+    width: 75%;
+    position: relative;
+    left: 12%;
 }
 
 .logoheader {
@@ -32,25 +35,34 @@ header {
     color: hsl(26, 100%, 55%);
 }
 
-.profile {
+#profile {
     top: 1em;
-    padding: 0 0 0 2em;
-    height: 4em;
-    position: relative;
-    left: 30%;
+    height: 5em;
+    position: absolute;
+    left: 90%;
+    border-radius: 3em;
+    
+    
+}
+
+#profile:hover {
+    border: solid 2px  hsl(26, 100%, 55%);
+    transition:  0.8ms;
+
 }
 
 .product-count {
     position: relative;
     left: 14.5%;
     bottom: 0.5em;
+    
 }
 
-.btn-car {
+#btn-car {
     background-color: transparent;
     border: none;
     position: relative;
-    left: 30%;
+    left: 29.3%;
 }
 
 /* Css do main */
@@ -58,7 +70,7 @@ header {
     position: relative;
     left: 55%;
     width: 25%;
-    top: em;
+    top: 10em;
 }
 
 
@@ -93,7 +105,7 @@ header {
 .prices {
     position: relative;
     left: 55%;
-    top: 2em;
+    top: 13em;
     width: 11%;
 }
 
@@ -128,11 +140,51 @@ header {
 
 .main-btn {
     position: relative;
-    left: 55%;
-    top: 8em;
-    width: 80%;
+    left: 52%;
+    top: 17em;
+    width: 30%;
 
 }
+
+#btn-add {
+    background-color: hsl(26, 100%, 55%);
+    color: #FFFFFF;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    width: 40%;
+    padding: 0.8em;
+    border-radius: 1em;
+    position: relative;
+    left: 35%;
+    bottom: 2.5em;
+
+}
+
+#btn-add:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+
+.car2 {
+    margin: 0 1em 0 0;
+}
+
+.amount-btn {
+    background: hsl(223, 64%, 98%);
+    width: 30%;
+    justify-content: center;
+    
+  
+}
+
+.amount-btn span, input {
+    margin-left: 1em;
+    ;
+}
+
 
 #btn-menos {
     background-color: transparent;
@@ -159,97 +211,71 @@ header {
     border: none;
 }
 
-#btn-add {
-    background-color: hsl(26, 100%, 55%);
-    color: #FFFFFF;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 700;
-    border: none;
-    width: 13%;
-    padding: 0.8em;
-    border-radius: 1em;
-
-}
-
-.car2 {
-    margin: 0 1em 0 0;
-}
 
 /* Css do slide */
 
-.slide {
-    width: 600px;
-    height: 576px;
+#container-a {
+    width: fit-content;
+    height: auto;
+    margin: 150px auto;
+    position: absolute;
+    left: 25%;
+    bottom: 5em;
+}
+
+.principal {
+    width: 480px;
+    height: fit-content;
     overflow: hidden;
-    border-radius: 2em;
-    transition: all 0.4s;
-
+    border-radius: 1em;
 }
-.slides {
-    width: 300%;
+
+.slide {
     display: flex;
+    width: 400%;
+    transition: all .8s;
+
 }
 
-.images img{
-    width: 100%;
-    height: 576px;
+.slide img {
+    height: 30em;
+
 }
 
-#atual {
-    transition: all 2s;
+label {
+    position: relative;
+    top: 39em;
+    right: 5%;
 }
 
-.btn {
-    position: absolute;
-    color: #000;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+label img {
+    width: fit-content;
     cursor: pointer;
-    transition: all 0.4s;
-    font-size: 1.7em;
-    margin-top: -5px;
+    float: left;
+    opacity: 0.5;
+    transition: all .4s;
+    border-radius: 1em;
+    margin-left: 2em;
+    height: 6em;
+   
 }
 
-.btn:hover {
-    transform: scale(1.5);
+#image2:checked ~ .principal .slide {
+    margin-left: -100%;
 }
 
-#back {
-    top: 50%;
-    left: 10%;
+
+#image3:checked ~ .principal .slide {
+    margin-left: -200%;
 }
 
-#next {
-    top: 50%;
-    right: 10%;
+#image4:checked ~ .principal .slide {
+    margin-left: -300%;
+}
+input[name="grupo"]{
+    display: none;
 }
 
-.balls {
-    position: absolute;
-    width: 1024px;
-    display: flex;
-    justify-content: center;
-    margin-top: -45px;
-}
-
-.balls div {
-    transition: all 0.5s;
-    border: 3px solid #000;
-    padding: 6px;
-    border-radius: 50%;
-    margin-right: 15px;
-    cursor: pointer;
-}
-
-.balls div:hover {
-    background: #000;
-}
-
-.imgActual {
-    background: #000;
-    transition: all 0.5s;
+input[name="grupo"]:checked + label img {
+    opacity: 1;
 }
