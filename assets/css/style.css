@@ -61,16 +61,54 @@ header {
 #btn-car {
     background-color: transparent;
     border: none;
-    position: relative;
-    left: 29.3%;
+    position: absolute;
+    top: 3em;
+    left: 85%;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+    left: 82%;
+    top: 8em;
+  }
+
+.dropdown:hover .dropdown-content {
+    border-radius: 0.5em;
+    display: block;
+
+}
+
+#checkout {
+    background-color: hsl(26, 100%, 55%);
+    color: #FFFFFF;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    width: 50%;
+    padding: 0.8em;
+    border-radius: 1em;
+
+}
+.cart {
+    color: #000000;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
 /* Css do main */
 .container-b {
     position: relative;
     left: 55%;
     width: 25%;
     top: 10em;
+    padding: 1em;
 }
 
 
@@ -162,9 +200,9 @@ header {
 
 }
 
-#btn-add:hover {
+#btn-add:active {
     opacity: .5;
-    transition: .5s;
+    
 }
 
 
@@ -195,6 +233,10 @@ header {
     border: none;
 }
 
+#btn-menos:active {
+    opacity: .5;
+}
+
 #number-shoes{
     color: #000000;
     font-family: 'Kumbh Sans', sans-serif;
@@ -209,6 +251,10 @@ header {
     font-size: 1.8em;
     font-weight: 700;
     border: none;
+}
+
+#btn-mais:active {
+    opacity: .5;
 }
 
 
