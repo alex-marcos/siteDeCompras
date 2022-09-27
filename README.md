@@ -37,5 +37,5 @@ Atualmente no dia 24/09 estou estudando a melhor possibilidade de slider para se
 <div align="centre">
 <h2 align="centre"> Para vizualisar o projeto acesse o link abaixo:<h2>
 
-**Link a ser inserido**
+https://laetuus.github.io/siteDeCompras/index.html
 
