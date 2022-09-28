@@ -15,9 +15,9 @@ Atualmente no dia 24/09 estou estudando a melhor possibilidade de slider para se
 
 
 
-<h2 align="centre">Vídeo do resultado</h2>
+<h2 align="centre">Gif do resultado</h2>
 <div align="center">
-<img align="center" alt="Design do site" height="400" width="500" src="./design/resultado.mkv">
+<img align="center" alt="Design do site" height="400" width="500" src="./design/resultado.gif">
 </div
 
 
