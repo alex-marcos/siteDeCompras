@@ -15,13 +15,10 @@ Atualmente no dia 24/09 estou estudando a melhor possibilidade de slider para se
 
 
 
-<h2 align="centre">Imagens do resultado</h2>
+<h2 align="centre">Vídeo do resultado</h2>
 <div align="center">
-
-**Imagem a ser inserida**
-    <img align="center" alt="Design do site" height="400" width="500" src=""> 
-</div>
-
+<img align="center" alt="Design do site" height="400" width="500" src="./design/resultado.mkv">
+</div
 
 
 <h2 align="centre">Tecnologias Usadas</h2>
