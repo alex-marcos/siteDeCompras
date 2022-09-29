@@ -6,6 +6,8 @@ para o design da página.
 
 Atualmente no dia 24/09 estou estudando a melhor possibilidade de slider para ser utilizada no projeto, enquanto estou testando possiveis estruturas, funcionais porem precisam de ajuste no CSS.
 
+Ao terminar o projeto confesso não ser possível integrar todos os elementos inicialmente planejados entretanto o slider carro chefe do projeto está completamente funcional e sem defeitos, pretendo lançar atualizações para esse projeto ao me aperfeiçoar com os elementos, e com um novo prazo.
+
 ## Objetivos de aprendizagem:
 - Reforço de HTML e CSS;
 - Uso de JavaScript para animações;
