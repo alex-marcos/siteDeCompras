@@ -36,5 +36,5 @@ Ao terminar o projeto confesso não ser possível integrar todos os elementos in
 <div align="centre">
 <h2 align="centre"> Para vizualisar o projeto acesse o link abaixo:<h2>
 
-https://laetuus.github.io/siteDeCompras/index.html
+https://alex-marcos.github.io/siteDeCompras/index.html
 
